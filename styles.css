@@ -9,15 +9,15 @@ Author: Liannette Holloway
 body{
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #ffe4f1;   /* pink background */
-  color: #ffe4f1;             /* deep purple text */
+  background-color: #c4b5fd;   /* light purple background */
+  color: #2e1065;             /* deep purple text */
 }                        
 header{
   text-align: center;
   font-size: 2.5em;
   font-weight: bold;
   padding: 20px;
-  background-color: #ffe4f1; /* light pink */
+  background-color: #4c1d95; /* dark purple */
   color: white;
 }
 nav ul{
@@ -26,7 +26,7 @@ nav ul{
   justify-content: center;
   padding: 10px 0;
   margin: 0;
-  background-color: #a06cd5; /* slightly lighter purple */
+  background-color: #a06cd5; /* medium purple */
 }
 nav ul li{
   margin: 0 15px;
@@ -52,7 +52,7 @@ main{
 section{
   padding: 20px;
   margin: 20px;
-  background-color: #ffe4f1; /* light pink */
+  background-color: #faf5ff; /* light purple */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(76, 29, 149, 0.15);
 }
@@ -60,7 +60,7 @@ footer{
   text-align: center;
   font-size: 0.9em;
   padding: 15px;
-  background-color: #8b5fbf;
+  background-color: #4c1d95;
   color: white;
   margin-top: 20px;
 }
