@@ -9,7 +9,7 @@ Author: Liannette Holloway
 body{
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #ffaddc;   /* pink background */
+  background-color: #ffe4f1;   /* pink background */
   color: #2e1065;             /* deep purple text */
 }                        
 header{
@@ -17,7 +17,7 @@ header{
   font-size: 2.5em;
   font-weight: bold;
   padding: 20px;
-  background-color: #ffaddc; /* warm pink */
+  background-color: #ffe4f1; /* light pink */
   color: white;
 }
 nav ul{
@@ -46,7 +46,7 @@ nav ul li a:hover{    /* hover effect*/
   border-radius: 8px;
 }
 main{
-  background-color: #ffaddc; 
+  background-color: #ffe4f1; 
   padding: 20px 0;
 }
 section{
