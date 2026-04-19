@@ -46,7 +46,7 @@ nav ul li a:hover{    /* hover effect*/
   border-radius: 8px;
 }
 main{
-  background-color: #ffe4f1; 
+  background-color: #ffaddc; /* warm pink */
   padding: 20px 0;
 }
 section{
@@ -60,7 +60,7 @@ footer{
   text-align: center;
   font-size: 0.9em;
   padding: 15px;
-  background-color: #4c1d95;
+  background-color: #4c1d95; /* dark purple */
   color: white;
   margin-top: 20px;
 }
