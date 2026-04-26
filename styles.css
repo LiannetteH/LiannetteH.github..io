@@ -94,6 +94,8 @@ thead{
 tfoot {
   font-weight: bold;
   text-align: center;
+}
+tfoot td {
   color: #2e1065;
 }
 footer{
