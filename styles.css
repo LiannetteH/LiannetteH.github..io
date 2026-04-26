@@ -20,6 +20,13 @@ header{
   background-color: #4c1d95; /* dark purple */
   color: white;
 }
+nav a {
+  transition: background-color 0.3s ease;
+}
+nav a:hover {
+  background-color: #333;
+  color: white;
+}
 nav ul{
   list-style-type: none; /* remove bullets */
   display: flex;         /* horizontal layout */
@@ -56,6 +63,34 @@ section{
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(76, 29, 149, 0.15);
 }
+main section {
+  transition: transform 0.3s ease;
+}
+main section:hover {
+  transform: scale(1.02);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+caption {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+th, td {
+  border: 1px solid #333;
+  color: white;
+}
+thead{
+  background-color: #333;
+  color: white;
+}
+tfoot {
+  font-weight: bold;
+  text-align: center;
+}
 footer{
   text-align: center;
   font-size: 0.9em;
@@ -63,5 +98,8 @@ footer{
   background-color: #4c1d95; /* dark purple */
   color: white;
   margin-top: 20px;
+}
+.highlight-col {
+  background-color: #f2f2f2;
 }
 
