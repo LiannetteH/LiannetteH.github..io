@@ -30,6 +30,8 @@ nav a:hover {
 nav ul{
   list-style-type: none; /* remove bullets */
   display: flex;         /* horizontal layout */
+  flex-direction: row;
+  gap: 15px;
   justify-content: center;
   padding: 10px 0;
   margin: 0;
@@ -55,6 +57,9 @@ nav ul li a:hover{    /* hover effect*/
 main{
   background-color: #ffaddc; /* warm pink */
   padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 section{
   padding: 20px;
@@ -107,4 +112,50 @@ footer{
 .highlight-col {
   background-color: #f2f2f2;
 }
-
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* Form styling */
+input, textarea {
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+input:focus, textarea:focus {
+  border-color: purple;
+  outline: none;
+}
+input[type="submit"] {
+  background-color: purple;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover, input[type="submit":focus {
+  background-color: #4b0082;
+}
+/* Responsive design */
+@media screen and (min-width: 320px) { /* Phone */
+  main {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) { /* Tablet */
+  nav ul {
+    flex-direciton: row;
+  }
+}
+@media screen and (min-width: 1024px) { /* Desktop */
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+}
