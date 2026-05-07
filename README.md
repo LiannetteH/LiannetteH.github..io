@@ -19,8 +19,13 @@ What project is used for:
 
 ## Features
 Responsive design:
+- Screen settings for phones, tablets, and desktops
 Interactive elements:
+- Hover effects
 Accessibility features:
+- Labels for inputs
+- Semantic HTML
+- Accessible Table
 
 ## Technologies Used
 Technologies and tools used to build this website:
