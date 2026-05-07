@@ -18,14 +18,9 @@ What project is used for:
 - this webpage is used to track projects I have worked on so far.
 
 ## Features
-Responsive design:
-- Screen settings for phones, tablets, and desktops
-Interactive elements:
-- Hover effects
-Accessibility features:
-- Labels for inputs
-- Semantic HTML
-- Accessible Table
+- Responsive design: Screen settings for phones, tablets, and desktops
+- Interactive elements: Hover effects
+- Accessibility features: Labels for inputs, semantic HTML, and accessible table
 
 ## Technologies Used
 Technologies and tools used to build this website:
